@@ -6,7 +6,7 @@ function TitleBar() {
     return (
         <Navbar bg="dark" data-bs-theme="dark" expand="lg" className="bg-body-tertiary poppin-font">
           <Container>
-            <Navbar.Brand href="#home">Srijit Site</Navbar.Brand>
+            <Navbar.Brand href="#home">Data Guy Srijit</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
