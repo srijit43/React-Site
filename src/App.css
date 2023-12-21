@@ -3,3 +3,22 @@
 .poppin-font {
     font-family: 'Poppins', sans-serif;
 }
+
+.navlink {
+    color: white;
+    text-decoration: none; 
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+ }
+
+ .mb-above-foot-bar {
+    margin-bottom: 8rem;
+ }

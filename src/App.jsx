@@ -1,12 +1,17 @@
 import './App.css';
 import TitleBar from './components/TitleBar'
-import HomeComponent from './components/HomeComponent'
+import { Outlet } from "react-router-dom";
 
 function App() {
   return (
     <div>
       <TitleBar />
-      <HomeComponent />
+      <div className="mb-above-foot-bar">
+        <Outlet />
+      </div>
+      <div class="footer p-3 bg-dark poppin-font">
+        <p>&copy; 2023 Srijit Bhattacharya</p>
+      </div>
     </div>
   );
 }
