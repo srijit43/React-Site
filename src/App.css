@@ -22,3 +22,15 @@
  .mb-above-foot-bar {
     margin-bottom: 8rem;
  }
+
+ .inline-class {
+    display: inline;
+ }
+
+ .middle-verticle {
+    vertical-align : middle;
+ }
+
+ .move-left {
+    float: left;
+ }
